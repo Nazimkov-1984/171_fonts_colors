@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-section {
+  align-items: flex-start;
+  padding-left: 10%;
+  background: url('./background-img/stock-photo-142984111-1500x1000.jpg') no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main-section p {
+  width: 500px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.main-section a {
+  border-radius: 20px;
+  background-color: aquamarine;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid transparent;
+  transition: all 0.6s;
+  margin-top: 16px;
+}
+.main-section a:hover {
+  cursor: pointer;
+  border-color: black;
+}
+.form-section {
+  flex-direction: row;
+  background: url('./background-img/beautiful-young-woman-home-office-working-from-home-teleworking-concept_144627-46787.avif') no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.form-section input {
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 8px;
+  margin-right: 16px;
+  width: 300px;
+  border: none;
+  outline: none;
+}
+.form-section button {
+  border-radius: 10px;
+  background-color: aquamarine;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid transparent;
+  transition: all 0.6s;
+  font-size: 18px;
+}
+.form-section button:hover {
+  cursor: pointer;
+  border-color: black;
+}
+
+.absolute {
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+}
+.absolute img {
+  width: 500px;
+  height: 250px;
+}
+.img1, .img2, .img3 {
+position: absolute;
+}
+.img1 {
+  left: 50px;
+  z-index: 1;
+}
+.img2{
+top:20px;
+left: 480px;
+z-index: 2;
+}
+.img3 {
+top:80px;
+left: 480px;
+z-index: 13;
+}
