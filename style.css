@@ -21,9 +21,13 @@ section {
 }
 .main-section p {
   width: 500px;
+  font-family: 'Bruno Ace', cursive;
 }
 h1 {
   margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Pacifico', cursive;
 }
 .main-section a {
   border-radius: 20px;
@@ -57,7 +61,7 @@ h1 {
 }
 .form-section button {
   border-radius: 10px;
-  background-color: aquamarine;
+  background-color: rgba(50,	180,	150, 0.6);
   padding: 10px 20px;
   text-decoration: none;
   color: black;
@@ -97,3 +101,8 @@ top:80px;
 left: 480px;
 z-index: 13;
 }
+/* 1) колір задаємо просто словом, наприклад red, green ...  */
+/* 2) задання кольору в форматі hex - #eea990 */
+/* 3) задання кольору в форматі rgb / rgba 	rgb(238,	169,	144)
+прозорість задаєтся в діапазоні від 0 до 1
+*/
